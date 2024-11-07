@@ -24,7 +24,7 @@ export const TodoAdd = ({ onNewTodo }) => {
             <input
                 type="text"
                 placeholder="¿Que hay que hacer?"
-                className="form-control"
+                className="form-control custom-placeholder"
                 name="description"
                 value={description}
                 onChange={onInputChange}

@@ -1,6 +1,31 @@
 body {
-    padding : 20px;
+    background-color: black;
+    padding: 20px;
+}
+div {
+    color: white;
+}
+.list-group {
+    --bs-list-group-color: #fff;
+    --bs-list-group-bg: #15181b;
+    --bs-list-group-border-color: #343a40;
 }
 button {
     margin-right: 10px;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.form-control {
+    color: #fff;
+    background-color: #15181b;
+    border-color: #343a40;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #15181b;
+    border-color: #343a40;
 }
